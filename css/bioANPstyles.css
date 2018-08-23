@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@font-face {
+    font-family: Museo;
+    src:url(../font/Museo300-Regular.otf);
+    font-weight: 300;
+}
+
+body {
+  padding-top: 54px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+	.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 0px;
+	}
+
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.bg_bar{
+	background-color: #393838;
+	border-bottom: 1px solid white;
+	border-top: 5px solid #FA9C2E;
+	padding: 13px 0px!important;
+}
+.aling_menu{
+	margin-left: 0!important;
+}
+.nav-link{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: white!important;
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-link:hover{
+	color: #fb9b01!important;
+}
+/* Search bar */
+.input-group{
+	float: right!important;
+}
+
+.stylish-input-group .input-group-addon{
+    background: #FA9C2E !important; 
+	margin-left: 6px;
+	-moz-border-radius: 3px!important;
+	-webkit-border-radius: 3px!important;
+	-o-border-radius: 3px!important;
+	border-radius: 3px!important;
+	height: 35px;
+		
+}
+.stylish-input-group .form-control{
+	box-shadow:0 0 0; 
+	border: 0px solid #000;
+	border-color:#ccc;
+	border-radius: 3px!important;
+	width: 205px;
+	height: 35px;
+}
+input.form-control {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #B9B3B3;
+}
+.stylish-input-group button{
+    border:0;  
+	width: 46px;
+	background: transparent url(../img/lupa.png) no-repeat center;
+	height: 30px;
+	
+}
+
+/* end search bar */
+
+/*     cover    */
+.linelf{
+	border-right: 1px solid #fff;
+	margin-right: 30px;
+	min-height: 600px;
+}
+.bg_home{
+	background-image:url(../img/bg_01.jpg);
+	background-position: center;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    min-height: 900px;
+    width: 100%;
+	padding-top:155px;
+	
+}
+.bgblack {
+	background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    min-height: 955px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.postban{
+	z-index: 1;
+	position: relative;
+}
+.iconstit{
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+.iconstit a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color:white;
+	text-decoration: none;
+}
+.iconstit span{
+	margin-right: 10px;
+}
+.textban{
+	color: white;
+	}
+h1.maintit{
+	font-family: 'Museo';
+	color:white;
+	font-size: 4.1em;
+}
+.spac {
+	padding: 90px 0px;
+}
+
+.tit-4{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	}
+/* BLOQUE 1 */
+
+.blockor{
+	background-color: #FA9C2E;
+	border-top: 4px solid black;
+	padding: 10px 15px;
+	text-align: right;
+}
+.blockor p{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	
+}
+.blockor h2{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 48px;
+	padding: 0;
+	margin: 0;
+}
+.blockor span{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-style: italic;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+.blockbas{
+	margin-top: 30px;
+	
+}
+.blockbas p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: black;
+	line-height: 24px;
+	font-size: 18px;
+	text-align: right;
+	margin-bottom: 30px;
+}
+.blockbas a{
+	display: block;
+	text-align: center;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	float: right;
+	padding: 7px 28px;
+	font-weight: 700;
+	-moz-border-radius: 5px!important;
+	-webkit-border-radius: 5px!important;
+	-o-border-radius: 5px!important;
+	border-radius: 5px!important;
+	transition: all 300ms ease;
+}
+.blockbas a:hover{
+	background-color:#1E1E1E;
+}
+/* END BLOQUE 1 */
+/* FOOTER */
+.bg-yl {
+	background-color: #FDCD00;
+}
+.dataemp{
+	
+}
+.dataemp ul{
+	margin: 0px;
+}
+.dataemp li{
+	list-style: none;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+	line-height: 30px;
+}
+.flsoc{
+	
+}
+h3.fotfl{
+	float: right!important;
+	margin-right:  45px;
+}
+.flsoc ul{
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.flsoc li{
+	list-style: none;
+}
+.flsoc li a{
+	float: right;
+	display: block;
+	list-style: none;
+	margin: 0px 4px;
+	color: black;
+	text-decoration: none;
+	width: 44px;
+	height: 44px;
+	background-color: black;
+}
